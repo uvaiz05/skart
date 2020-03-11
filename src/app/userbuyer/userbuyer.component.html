@@ -1,0 +1,11 @@
+<form [formGroup]="userBuyerForm" (ngSubmit)="userBuyer()">
+    <div>
+        <input placeholder="name" formControlName="name" name="name" type="text"> 
+        <input placeholder="email" formControlName="email" name="email" type="text">
+        <input placeholder="phone" formControlName="phone" name="phone" type="text">
+        <input placeholder="password" formControlName="password" name="password" type="password">
+    </div>
+    <div>
+    <button type="submit">Submit</button>
+    </div>
+</form>
